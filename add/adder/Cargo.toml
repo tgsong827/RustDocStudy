@@ -1,5 +1,5 @@
 [package]
-name = "greprs"
+name = "adder"
 version = "0.1.0"
 edition = "2018"
 
@@ -7,5 +7,4 @@ edition = "2018"
 
 [dependencies]
 
-[profile.dev]
-opt-level = 0
+add-one = { path = "../add-one" }
