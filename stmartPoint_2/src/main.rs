@@ -54,13 +54,20 @@ fn main() {
     });
 
     println!(
+<<<<<<< HEAD
         "leaf strong = {}, weak = {}",
+=======
+        "leaf string = {}, weak = {}",
+>>>>>>> 2fe7c4bc6426e56a05f749ba8372dba601159266
         Rc::strong_count(&leaf),
         Rc::weak_count(&leaf),
     );
 
     {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2fe7c4bc6426e56a05f749ba8372dba601159266
         let branch = Rc::new(Node {
             value: 5,
             parent: RefCell::new(Weak::new()),
